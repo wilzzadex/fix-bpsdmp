@@ -1,0 +1,98 @@
+.sicon p{
+    /* margin: 30px;
+     */
+    /* font-size: 20px; */
+    text-align: center;
+    padding: 15px !important;
+    color: white;
+}
+
+.sicon{
+    background-color: #0A588E;
+}
+/* .sicon div{
+    border-right: 1px solid #eee;
+} */
+
+.swiper-slide {
+    opacity: .65 !important; 
+ }
+
+.ftitle{
+    border-left: 5px solid #FCDB00 !important;
+    padding: 10px !important;
+    margin-top: 10px;
+}
+
+.layer {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.konten{
+    text-align: center;
+}
+
+/* .konten iframe{
+    margin: 5px;
+} */
+
+.custom-a{
+    color:rgb(17, 16, 16) !important;
+}
+.custom-a:hover{
+    color:#FCDB00 !important;
+}
+
+/* #header-wrap.not-dark{
+    background-color: #0A588E !important;
+} */
+ 
+#primary-menu.not-dark ul li > a {
+	display: block;
+	line-height: 22px;
+	padding: 39px 15px;
+	color: #eee !important; /* WARNA MENU    !! */
+	font-weight: bold;
+	/* font-weight: 700; */
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	-webkit-transition: margin .4s ease, padding .4s ease;
+	-o-transition: margin .4s ease, padding .4s ease;
+	transition: margin .4s ease, padding .4s ease;
+}
+
+@media only screen and(max-width:1300px){
+    #primary-menu ul li > a {
+        display: block;
+        line-height: 22px;
+        padding: 39px 15px;
+        color: #333; /* WARNA MENU    !! */
+        font-weight: bold;
+        /* font-weight: 700; */
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: margin .4s ease, padding .4s ease;
+        -o-transition: margin .4s ease, padding .4s ease;
+        transition: margin .4s ease, padding .4s ease;
+    }
+}
+/* #primary-menu {
+    color: #eee !important;
+} */
+
+/* .heading-custom{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:900;
+    border-bottom: 3px solid yellow;
+} */
+
