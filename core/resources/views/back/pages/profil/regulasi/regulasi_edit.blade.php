@@ -55,15 +55,26 @@
                                                 {{-- <option value={{ $regulasi->tahun }}>{{ $regulasi->tahun }}</option> --}}
                                                 <?php
                                                     $year = date('Y');
+                                                    $tahun=[];
                                                     for ($i=$year; $i > ($year-26) ; $i--) { 
+                                                    $tahun[] .= $i;
                                                 ?>
                                                 <option value="{{ $i }}" {{ $i == $regulasi->tahun ? 'selected' : '' }}>{{ $i }}</option>
                                                 
                                                 <?php      
                                                     }
+                                            
+                                                   
                                                 ?>
+                                                @if (!in_array($regulasi->tahun,$tahun))
+                                                    <option value="{{ $regulasi->tahun }}" selected>{{ $regulasi->tahun }}</option>
+                                                @endif
                                                
                                             </select>
+                                            @php
+                                               
+                                            @endphp
+                                            {{-- {{  dd($tahun) }} --}}
                                         </div>
                                     </div>
                                     <div class="form-group">
