@@ -62,7 +62,7 @@
 
 		<!-- Header
 		============================================= -->
-		<div id="top-bar" style="background-color: #007dc2 !important;">
+		<div id="top-bar" style="background-color: #204E84 !important;">
 
 			<div class="container clearfix">
 
@@ -405,32 +405,30 @@
 					</div>
 					 -->
 				</div>
-				<!-- <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-				<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-				<div class="slide-number">
-					<div class="slide-number-current"></div><span>/</span>
-					<div class="slide-number-total"></div>
-				</div> -->
+				<div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 			</div>
 
 		</section>
 		<section id="content">
 			<div class="row sicon">
-				<div class="col-md-3 text-center">
+				<div class="col-md-3 text-center tes">
 					<a href="javascript:void(0)" onclick="toRegulasi()"><img src="icon/file.png"
 							style="width: 40px; padding-top: 30px;" alt=""></a>
 					<p>Regulasi & Kebijakan</p>
 				</div>
-				<div class="col-md-3 text-center">
+				<div class="col-md-3 text-center tes">
 					<a href="javascript:void(0)" onclick="toKerjaSama()"><img src="icon/clip.png"
 							style="width: 40px; padding-top: 30px;" alt=""></a>
 					<p>Kerja Sama</p>
 				</div>
-				<div class="col-md-3 text-center">
+				<div class="col-md-3 text-center tes">
 					<img src="icon/bigdata.png" style="width: 40px; padding-top: 30px;" alt="">
 					<p>Big Data SDM Perhubungan</p>
 				</div>
-				<div class="col-md-3 text-center">
+				<div class="col-md-3 text-center tes">
 					<img src="icon/penerimaan.png" style="width: 40px; padding-top: 30px;" alt="">
 					<p>Penerimaan Taruna</p>
 				</div>
@@ -454,7 +452,7 @@
 					<!-- Portfolio Items
 					============================================= -->
 					<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="30"
-						data-nav="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3"
+						data-nav="false" data-autoplay="5000" data-items-xs="3" data-items-sm="3" data-items-md="3"
 						data-items-xl="3">
 
 						<div class="oc-item">

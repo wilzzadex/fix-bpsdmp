@@ -1,4 +1,4 @@
-<div id="top-bar" style="background-color: #007dc2 !important;">
+<div id="top-bar" style="background-color: #204E84 !important;">
 
     <div class="container clearfix">
 

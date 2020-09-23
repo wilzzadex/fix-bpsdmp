@@ -15,7 +15,7 @@
 } */
 
 .swiper-slide {
-    opacity: .65 !important; 
+    opacity: .75 !important; 
  }
 
 .ftitle{
@@ -37,9 +37,10 @@
     text-align: center;
 }
 
-/* .konten iframe{
-    margin: 5px;
-} */
+.tes:hover{
+    background-color: #073659;
+    cursor:pointer;
+}
 
 .custom-a{
     color:rgb(17, 16, 16) !important;

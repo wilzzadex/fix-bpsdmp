@@ -1,8 +1,21 @@
 var base_url = window.location.origin + '/bpsdmp/home/'
 
 var mySwiper = new Swiper('.swiper-container', {
-    speed: 400,
-    // spaceBetween: 100
+    slidesPerView: 1,
+    // spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
 });
 
 var _urlApi = '//kabayanconsulting.co.id/bpsdmp/api/pwa/'
@@ -274,6 +287,7 @@ $(document).ready(function (){
                     var imageSrc = _urlPublic + 'slider_image/'+data.img
                     mySwiper.addSlide(key, `<div class="swiper-slide dark" style="background-image: url(`+imageSrc+`);"></div>`)
                 })  
+               
             },
             error: function(err){
                 mySwiper.addSlide(0, `<div class="swiper-slide dark" style="background-image: url('gambar/slide7.JPG');">

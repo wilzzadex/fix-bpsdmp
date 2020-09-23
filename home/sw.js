@@ -68,24 +68,24 @@ self.addEventListener('fetch', function(event) {
     var request = event.request
     var url = new URL(request.url)
 
-    if(url.origin != location.origin){
-      event.respondWith(
-        caches.open('dynamic-cache').then(function(cache){
-            return fetch(request).then(function(liveResponse){
-                try {
-                  cache.put(request, liveResponse.clone())
-                  return liveResponse
-                } catch (error) {
+  //   if(url.origin != location.origin){
+  //     event.respondWith(
+  //       caches.open('dynamic-cache').then(function(cache){
+  //           return fetch(request).then(function(liveResponse){
+  //               try {
+  //                 cache.put(request, liveResponse.clone())
+  //                 return liveResponse
+  //               } catch (error) {
                 
-                }
+  //               }
                
-            }).catch(function(e){
-                console.log(e)
-            })
-        })
-    );
+  //           }).catch(function(e){
+  //               console.log(e)
+  //           })
+  //       })
+  //   );
           
-  }else{
+  // }else{
     event.respondWith(
       caches.match(request.url)
         .then(function(response) {
@@ -99,7 +99,7 @@ self.addEventListener('fetch', function(event) {
     );
       // console.log(request)
     
-  }   
+  // }   
   });
 
   self.addEventListener('activate', function(event) {

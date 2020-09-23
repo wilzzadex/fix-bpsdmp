@@ -2987,7 +2987,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .swiper_wrapper .swiper-slide {
 	position: relative;
 	margin: 0;
-	background-position: center center;
+	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
