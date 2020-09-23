@@ -1,13 +1,13 @@
-var base_url = window.location.origin + '/bpsdmp/public/home/'
+var base_url = window.location.origin + '/bpsdmp/home/'
 
 var mySwiper = new Swiper('.swiper-container', {
     speed: 400,
     // spaceBetween: 100
 });
 
-var _urlApi = '//kabayanconsulting.co.id/bpsdmp/public/api/pwa/'
-var _urlPublic = '//kabayanconsulting.co.id/bpsdmp/public/file_app/'
-var _urlGlobal = '//kabayanconsulting.co.id/bpsdmp/public/'
+var _urlApi = '//kabayanconsulting.co.id/bpsdmp/api/pwa/'
+var _urlPublic = '//kabayanconsulting.co.id/bpsdmp/file_app/'
+var _urlGlobal = '//kabayanconsulting.co.id/bpsdmp/'
 
 $(document).ready(function (){
     
@@ -888,7 +888,7 @@ function formatTanggal(tanggal)
 
 
 
-console.log('ini abase url ' + base_url )
+// console.log('ini abase url ' + base_url )
 
 
 
@@ -897,10 +897,10 @@ if('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register(base_url + 'sw.js').then(function(registration) {
         // Registration was successful
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        // console.log('ServiceWorker registration successful with scope: ', registration.scope);
         }, function(err) {
         // registration failed :(
-        console.log('ServiceWorker registration failed: ', err);
+        // console.log('ServiceWorker registration failed: ', err);
         });
     });
 }

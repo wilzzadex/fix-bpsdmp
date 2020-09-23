@@ -2,7 +2,7 @@
     "short_name": "BPSDMP",
     "name": "Badan Pengembangan SDM Perhubungan",
     "lang": "en",
-    "start_url": "https://kabayanconsulting.co.id/bpsdmp/public/home/index.php",
+    "start_url": "https://kabayanconsulting.co.id/bpsdmp/home/index.php",
     "background_color": "#007dc2",
     "theme_color": "#007dc2",
     "dir": "auto",
@@ -10,67 +10,67 @@
     "orientation": "any",
     "icons": [
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/android-icon-192x192-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/android-icon-192x192-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "192x192"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-180x180-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-180x180-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "180x180"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-152x152-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-152x152-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "152x152"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-144x144-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-144x144-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "144x144"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-120x120-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-120x120-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "120x120"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-114x114-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-114x114-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "114x114"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/favicon-96x96-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/favicon-96x96-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "96x96"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-76x76-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-76x76-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "76x76"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-72x72-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-72x72-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "72x72"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-60x60-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-60x60-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "60x60"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/apple-icon-57x57-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/apple-icon-57x57-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "57x57"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/favicon-32x32-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/favicon-32x32-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "32x32"
      },
      {
-      "src": "https://kabayanconsulting.co.id/bpsdmp/public/home/icons/favicon-16x16-dunplab-manifest-9523.png",
+      "src": "https://kabayanconsulting.co.id/bpsdmp/home/icons/favicon-16x16-dunplab-manifest-9523.png",
       "type": "image/png",
       "sizes": "16x16"
      }
