@@ -57,11 +57,27 @@
          <br>
         <div class="container clearfix">
             <div class="promo promo-light bottommargin">
-                <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->alamat }} </span></a> &nbsp;
-                <a href=""><i class="fa fa-envelope" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->email }}</span></a> &nbsp;
-                <a href=""><i class="fa fa-phone" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->no_telp }} </span></a>
-                <a target="_blank" href="{{ $sekolah->website }}" class="button button-xlarge button-rounded"> Go To Website</a>
+            <div class="row">
+                
+                    <div class="col-md-8">
+                        <span>
+                            <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->alamat }} </span></a> &nbsp; </span>
+                            <span>
+                            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->email }}</span></a> &nbsp; </span>
+                            <span>
+                            <a href=""><i class="fa fa-phone" aria-hidden="true"></i><span style="color: black;"> {{ $sekolah->no_telp }} </span></a> </span>
+                        
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div>
+                        <a target="_blank" href="{{ $sekolah->website }}" style="margin-left:10px" class="button button-xlarge button-rounded"> Go To Website</a>
+                    </div>
+                 
+                </div>
             </div>
+            
         </div>
         
         

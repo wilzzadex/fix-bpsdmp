@@ -1,4 +1,14 @@
 @extends('front.master')
+@section('custom-css')
+    <style>
+        .csh{
+            color: black;
+        }
+        .csh:hover{
+            color: #FCDB00;
+        }
+    </style>
+@endsection
 @section('content')
     
 
@@ -60,8 +70,8 @@
                         </div>
                     </div>
                     <div class="portfolio-desc">
-                        <h3><a href="{{ route('sekolah.detail',$sekolah->slug) }}">{{ $sekolah->singkatan }}
-                        </a></h3>
+                        <h5><a class="csh" href="{{ route('sekolah.detail',$sekolah->slug) }}">{{ $sekolah->singkatan }}
+                        </a></h5>
                         {{-- <span> <i class="fa fa-map-marker" aria-hidden="true"></i> Medan</span> --}}
                     </div>
                 </article>
