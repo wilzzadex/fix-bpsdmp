@@ -5,7 +5,7 @@
 
     <div class="container clearfix">
         <h1>@lang('homepage.satuan_kerja')</h1>
-        <!-- <span>Powerful Form Processor</span> -->
+        <span>{{ $satker->nama }}</span>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="#">@lang('homepage.profile')</a></li>

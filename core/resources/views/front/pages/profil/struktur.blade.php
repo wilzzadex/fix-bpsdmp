@@ -6,7 +6,7 @@
 
     <div class="container clearfix">
         <h1>@lang('homepage.struktur_organisasi')</h1>
-        <!-- <span>Powerful Form Processor</span> -->
+        <span>{{ $struktur->nama }}</span>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="#">@lang('homepage.profile')</a></li>
