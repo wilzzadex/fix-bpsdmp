@@ -141,4 +141,9 @@
     </div>
 
 </section>
+
+@endsection
+
+@section('custom-script')
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f744702ac19a900122180d7&product=sop' async='async'></script>
 @endsection
