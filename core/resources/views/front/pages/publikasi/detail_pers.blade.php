@@ -97,30 +97,10 @@
 
                             <div class="clear"></div>
 
-                            <!-- Post Single - Share
-									============================================= -->
                             <div class="si-share noborder clearfix">
                                 <span>Share :</span>
-                                <div>
-                                    <a href="#" class="social-icon si-borderless si-facebook">
-                                        <i class="icon-facebook"></i>
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#" class="social-icon si-borderless si-twitter">
-                                        <i class="icon-twitter"></i>
-                                        <i class="icon-twitter"></i>
-                                    </a>
-                                    <a href="#" class="social-icon si-borderless si-instagram">
-                                        <i class="icon-instagram"></i>
-                                        <i class="icon-instagram"></i>
-                                    </a>
-                                    <a href="#" class="social-icon si-borderless si-youtube">
-                                        <i class="icon-youtube"></i>
-                                        <i class="icon-youtube"></i>
-                                    </a>
-
-                                </div>
-                            </div><!-- Post Single - Share End -->
+                               <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+                            </div>
 
                         </div>
                     </div><!-- .entry end -->
@@ -208,4 +188,7 @@
     </div>
 
 </section>
+@endsection
+@section('custom-script')
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f744702ac19a900122180d7&product=sop' async='async'></script>
 @endsection
